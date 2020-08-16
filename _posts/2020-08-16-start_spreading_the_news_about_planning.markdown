@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "“Start Spreading The News” About Planning!"
-date:       2020-08-16 17:31:30 +0000
+date:       2020-08-16 13:31:31 -0400
 permalink:  start_spreading_the_news_about_planning
 ---
 
@@ -10,7 +10,7 @@ permalink:  start_spreading_the_news_about_planning
 
 This is the first time that I was about to write code in a multilayer file where going back and forth might just give you a headache. I have listened to a lot of programmers and one thing that they have in common is that they spend a lot of time planning rather than coding. I found that to be true for me during this project. Here are my top tips on how to prepare for this project to successfully get the job done. 
 
-Write your project down: 
+1. Write your project down: 
 
 Writing your project down helped me map the starting point and the direction I was taking. I draw my tables and associations on paper and I imagined how my database should look. Taking that step was super helpful to code efficiently and to get the task done.  
 
