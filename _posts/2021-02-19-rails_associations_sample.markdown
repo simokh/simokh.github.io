@@ -25,10 +25,12 @@ The first association that comes to mind is that the collector has three sneaker
 
 
 Model Collector 
+
+
 ```
 Class Collector < ApplicationController 
 	has_many sneakers 
-	has_many laces 			
+	has_many laces 
 end 
 ```
 
@@ -47,8 +49,6 @@ Class Lace < ApplicationController
 	belongs_to sneaker	
 end
 ```
-
-
 
 
 Now that we have our models set up, the next natural step is set up the migrations to create the tables. The table below should summarize what the database will look like:
