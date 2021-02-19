@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails Associations Sample"
-date:       2021-02-19 19:05:16 +0000
+date:       2021-02-19 14:05:17 -0500
 permalink:  rails_associations_sample
 ---
 
@@ -33,7 +33,9 @@ end
 ```
 
 Model Sneaker 
-```Class Sneaker < ApplicationController
+
+```
+Class Sneaker < ApplicationController
 	belongs_to collector 
 end
 ```
