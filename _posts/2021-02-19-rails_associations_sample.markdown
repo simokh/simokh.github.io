@@ -40,7 +40,7 @@ Class Sneaker < ApplicationController
 end
 ```
 
-* Next step is to think about the laces. They belong to the sneaker and therefore, they belong to the collector as well. The model will be set up as follows: 
+Next step is to think about the laces. They belong to the sneaker and therefore, they belong to the collector as well. The model will be set up as follows: 
 
 ```
 Class Lace < ApplicationController
@@ -49,7 +49,7 @@ Class Lace < ApplicationController
 end
 ```
 
-* Now that we have our models set up, the next natural step is set up the migrations to create the tables. The table below should summarize what the database will look like:
+Now that we have our models set up, the next natural step is set up the migrations to create the tables. The table below should summarize what the database will look like:
 
 Collectors 	        Sneakers                      	Laces 
   name 	                   brand_name	                 color 
