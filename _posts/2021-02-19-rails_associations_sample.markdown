@@ -40,7 +40,6 @@ Class Sneaker < ApplicationController
 end
 ```
 
-Next step is to think about the laces. They belong to the sneaker and therefore, they belong to the collector as well. The model will be set up as follows: 
 
 ```
 Class Lace < ApplicationController
@@ -48,6 +47,7 @@ Class Lace < ApplicationController
 	belongs_to sneaker	
 end
 ```
+
 
 
 
