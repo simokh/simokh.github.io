@@ -56,11 +56,12 @@ end
 
 Now that we have our models set up, the next natural step is set up the migrations to create the tables. The table below should summarize what the database will look like:
 
-
+```
 Collectors 	        Sneakers                      	Laces 
   name 	                   brand_name	                 color 
   age 	                      Size                                   collector_id  	                                                    
   city		                                                                 sneaker_id 
+```
 
 
 The collector_id and the sneaker_id are called foreign keys. They are called as such because they are foreign attributes to the laces’ table. Thanks to those foreign keys, the laces’ table will be the join table. Therefore, we will be able to access the collectors and the sneakers tables. 
